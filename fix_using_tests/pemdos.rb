@@ -2,5 +2,7 @@
 require 'pry'
 def snake_it_up(string)
     binding.pry
-    10.times "s" +string
+    10.times do
+      "s"
+      then + string
 end
