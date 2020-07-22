@@ -1,8 +1,10 @@
 # don't forget to add: require 'pry'
 require 'pry'
 def snake_it_up(string)
-    10.times do
-      "s"
-      then 
-      + string
+  if string[0] == "s"
+    
+    10 * string[0] + string
+  else
+    string
+  end
 end
